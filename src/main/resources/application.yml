@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+server:
+  context-path: /sell
+
+
+
+# 日志相关
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  file: /workspace/java-workspace/log/sell.log
+#  level: #默认是info
+#     com.xus.sell.LoggerTest: debug # 对某个包下的类日志单独设置级别
+
+wechat:
+  mpAppId: wx26855ba1b562591e
+  mpAppSecret: 9e2e7967d45b0591f8deadeffad036f6
+  mchId:
+  mchKey:
+  keyPath:
